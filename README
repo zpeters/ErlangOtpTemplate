@@ -1,0 +1,10 @@
+This is a simple template for an OTP application
+
+Compiling: 
+erl -o ebin src/*.erl
+
+Running: 
+erl -pa ebin
+application:start(myapp).
+myapp_server:test_call("Call").
+myapp_server:test_cast("Cast").
