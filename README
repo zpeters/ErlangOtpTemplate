@@ -1,7 +1,7 @@
 This is a simple template for an OTP application
 
 Compiling: 
-erl -o ebin src/*.erl
+erlc -o ebin src/*.erl
 
 Running: 
 erl -pa ebin
